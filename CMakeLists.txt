@@ -6,3 +6,13 @@ project(
   LANGUAGES CXX
 )
 
+include(${PROJECT_SOURCE_DIR}/tools/cmake/Modules/BuildToolsMain.cmake)
+
+log_info("Generating Global Settings INTERFACE target")
+add_library(GlobalSettings INTERFACE)
+target_compile_features(GlobalSettings INTERFACE cxx_std_20)
+set_project_warnings(GlobalSettings)
+
+add_subdirectory(external)
+add_subdirectory(src)
+add_subdirectory(tests)
