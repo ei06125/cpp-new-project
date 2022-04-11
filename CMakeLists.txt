@@ -13,6 +13,7 @@ add_library(GlobalSettings INTERFACE)
 target_compile_features(GlobalSettings INTERFACE cxx_std_20)
 set_project_warnings(GlobalSettings)
 
-add_subdirectory(external)
+add_subdirectory(external EXCLUDE_FROM_ALL)
+add_subdirectory(include)
 add_subdirectory(src)
 add_subdirectory(tests)
