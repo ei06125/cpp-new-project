@@ -8,3 +8,6 @@ x
 [submodule "external/benchmark"]
 	path = external/benchmark
 	url = git@github.com:google/benchmark.git
+[submodule "include"]
+	path = include
+	url = git@github.com:ei06125/cpp-standard-library-pch.git
