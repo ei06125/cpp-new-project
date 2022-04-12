@@ -34,12 +34,6 @@ jobs:
           - Release
           - Debug
 
-        exclude:
-          - os: macos-latest
-            compiler: gcc-11
-          -os: ubuntu-latest
-            compiler: llvm-13.0.0
-
         include:
           - compiler: gcc-11
             gcov_executable: gcov
