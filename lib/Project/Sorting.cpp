@@ -3,31 +3,29 @@
 namespace cpy::project {
 
   void Merge(int* A, int p, int q, int r) {
-    int n1 = q - p + 1;
-    int n2 = r - q;
-
-    std::vector<int> L(n1 + 1);
-    std::vector<int> R(n2 + 1);
-
-    for (int i = 0; i < n1; ++i) {
-      L[i] = A[p + i - 1];
-    }
-    for (int j = 0; j < n2; ++j) {
-      R[j] = A[q + j];
-    }
-
+    auto n1 = static_cast<unsigned long>(q - p + 1);
+    auto n2 = static_cast<unsigned long>(r - q);
+    int* L = new int[n1 + 1];
+    int* R = new int[n2 + 1];
+    for (unsigned long i = 0; i < n1; i++)
+      L[i] = A[static_cast<unsigned long>(p) + i - 1];
+    for (unsigned long j = 0; j < n2; j++)
+      R[j] = A[static_cast<unsigned long>(q) + j];
     L[n1] = std::numeric_limits<int>::max();
     R[n2] = std::numeric_limits<int>::max();
-
-    for (int i = 0, j = 0, k = p - 1; k < r; ++k) {
+    int i = 0;
+    int j = 0;
+    for (int k = p - 1; k < r; k++) {
       if (L[i] <= R[j]) {
         A[k] = L[i];
-        ++i;
+        i = i + 1;
       } else {
         A[k] = R[j];
-        ++j;
+        j = j + 1;
       }
-    }
+    };
+    delete[] L;
+    delete[] R;
   }
 
   void MergeSort(int* A, int p, int r) {

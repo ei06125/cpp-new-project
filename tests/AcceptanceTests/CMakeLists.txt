@@ -10,3 +10,5 @@ target_include_directories(
   ProjectAcceptanceTests PRIVATE ${StandardLibraryPCH_INCLUDE_DIR}
                                  ${ProjectLib_INCLUDE_DIRS}
 )
+
+add_test(NAME ProjectAcceptanceTests COMMAND ProjectAcceptanceTests)
