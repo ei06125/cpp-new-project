@@ -33,6 +33,9 @@ jobs:
             compiler: msvc
           - os: ubuntu-latest
             compiler: msvc
+          # because of https://stackoverflow.com/questions/68878564/missing-typename-in-gcc-11-1-0-ranges-header
+          - os: ubuntu-latest
+            compiler: llvm
 
         include:
           # Add appropriate variables for gcov version required. This will intentionally break
