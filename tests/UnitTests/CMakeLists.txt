@@ -8,3 +8,5 @@ target_include_directories(
   ProjectUnitTests PRIVATE ${StandardLibraryPCH_INCLUDE_DIR}
                            ${ProjectLib_INCLUDE_DIRS}
 )
+
+add_test(NAME ProjectUnitTests COMMAND ProjectUnitTests)

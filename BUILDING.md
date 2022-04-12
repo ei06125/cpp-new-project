@@ -17,6 +17,3 @@ CMake will generate the required files for the build tools/system to compile and
 ```bash
 cmake --build ./build
 ```
-
-# Future Steps
-* Add CMakePresets.json

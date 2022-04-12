@@ -8,14 +8,21 @@ project(
 
 include(${PROJECT_SOURCE_DIR}/tools/cmake/Modules/BuildToolsMain.cmake)
 
-set(CMAKE_CXX_STANDARD 20)
+find_package(Threads REQUIRED)
+set_property(GLOBAL PROPERTY CTEST_TARGETS_ADDED 1)
+include(CTest)
+include(GoogleTest)
+
+# Surpress Target ZERO_CHECK
+set(CMAKE_SUPPRESS_REGENERATION true)
+set(CMAKE_CXX_STANDARD 23) # c++latest
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 log_info("Generating Global Settings INTERFACE target")
 add_library(GlobalSettings INTERFACE)
 set_project_warnings(GlobalSettings)
 
-add_subdirectory(external EXCLUDE_FROM_ALL)
+add_subdirectory(external)
 add_subdirectory(include)
 add_subdirectory(lib)
 add_subdirectory(src)

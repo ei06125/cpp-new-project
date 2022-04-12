@@ -12,7 +12,12 @@
       "hidden": true,
       "generator": "Ninja",
       "binaryDir": "${sourceDir}/out/build/${presetName}",
-      "installDir": "${sourceDir}/out/install/${presetName}"
+      "installDir": "${sourceDir}/out/install/${presetName}",
+      "cacheVariables": {
+        "BENCHMARK_ENABLE_GTEST_TESTS": "FALSE",
+        "BENCHMARK_ENABLE_TESTING": "FALSE",
+        "ENABLE_PERFORMANCE_TESTS": "FALSE"
+      }
     },
     {
       "name": "conf-windows-common",
@@ -68,7 +73,8 @@
       "cacheVariables": {
         "CMAKE_C_COMPILER": "cl",
         "CMAKE_CXX_COMPILER": "cl",
-        "CMAKE_BUILD_TYPE": "RelWithDebInfo"
+        "CMAKE_BUILD_TYPE": "RelWithDebInfo",
+        "ENABLE_PERFORMANCE_TESTS": "TRUE"
       }
     },
     {
@@ -79,7 +85,8 @@
       "cacheVariables": {
         "CMAKE_C_COMPILER": "cl",
         "CMAKE_CXX_COMPILER": "cl",
-        "CMAKE_BUILD_TYPE": "Release"
+        "CMAKE_BUILD_TYPE": "Release",
+        "ENABLE_PERFORMANCE_TESTS": "TRUE"
       }
     },
     {
@@ -106,7 +113,8 @@
       "cacheVariables": {
         "CMAKE_C_COMPILER": "clang-cl",
         "CMAKE_CXX_COMPILER": "clang-cl",
-        "CMAKE_BUILD_TYPE": "RelWithDebInfo"
+        "CMAKE_BUILD_TYPE": "RelWithDebInfo",
+        "ENABLE_PERFORMANCE_TESTS": "TRUE"
       },
       "vendor": {
         "microsoft.com/VisualStudioSettings/CMake/1.0": {
@@ -122,7 +130,8 @@
       "cacheVariables": {
         "CMAKE_C_COMPILER": "clang-cl",
         "CMAKE_CXX_COMPILER": "clang-cl",
-        "CMAKE_BUILD_TYPE": "Release"
+        "CMAKE_BUILD_TYPE": "Release",
+        "ENABLE_PERFORMANCE_TESTS": "TRUE"
       },
       "vendor": {
         "microsoft.com/VisualStudioSettings/CMake/1.0": {
@@ -142,6 +151,18 @@
       }
     },
     {
+      "name": "linux-gcc-dev",
+      "displayName": "gcc Dev",
+      "description": "Target Linux with the gcc compiler, dev build type",
+      "inherits": "conf-linux-common",
+      "cacheVariables": {
+        "CMAKE_C_COMPILER": "gcc",
+        "CMAKE_CXX_COMPILER": "g++",
+        "CMAKE_BUILD_TYPE": "RelWithDebInfo",
+        "ENABLE_PERFORMANCE_TESTS": "TRUE"
+      }
+    },
+    {
       "name": "linux-gcc-release",
       "displayName": "gcc Release",
       "description": "Target Linux with the gcc compiler, release build type",
@@ -149,7 +170,8 @@
       "cacheVariables": {
         "CMAKE_C_COMPILER": "gcc",
         "CMAKE_CXX_COMPILER": "g++",
-        "CMAKE_BUILD_TYPE": "RelWithDebInfo"
+        "CMAKE_BUILD_TYPE": "Release",
+        "ENABLE_PERFORMANCE_TESTS": "TRUE"
       }
     },
     {
@@ -164,6 +186,18 @@
       }
     },
     {
+      "name": "linux-clang-dev",
+      "displayName": "clang Dev",
+      "description": "Target Linux with the clang compiler, dev build type",
+      "inherits": "conf-linux-common",
+      "cacheVariables": {
+        "CMAKE_C_COMPILER": "clang",
+        "CMAKE_CXX_COMPILER": "clang++",
+        "CMAKE_BUILD_TYPE": "RelWithDebInfo",
+        "ENABLE_PERFORMANCE_TESTS": "TRUE"
+      }
+    },
+    {
       "name": "linux-clang-release",
       "displayName": "clang Release",
       "description": "Target Linux with the clang compiler, release build type",
@@ -171,7 +205,8 @@
       "cacheVariables": {
         "CMAKE_C_COMPILER": "clang",
         "CMAKE_CXX_COMPILER": "clang++",
-        "CMAKE_BUILD_TYPE": "RelWithDebInfo"
+        "CMAKE_BUILD_TYPE": "Release",
+        "ENABLE_PERFORMANCE_TESTS": "TRUE"
       }
     }
   ],
