@@ -58,14 +58,6 @@ jobs:
         with:
           submodules: "true"
 
-      - name: Setup Cache
-        uses: ./.github/actions/setup_cache
-        with:
-          compiler: ${{ matrix.compiler }}
-          build_type: ${{ matrix.build_type }}
-          developer_mode: ${{ matrix.developer_mode }}
-          generator: ${{ matrix.generator }}
-
       - name: Setup Cpp
         uses: aminya/setup-cpp@v1
         with:
