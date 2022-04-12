@@ -8,12 +8,15 @@ project(
 
 include(${PROJECT_SOURCE_DIR}/tools/cmake/Modules/BuildToolsMain.cmake)
 
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_EXTENSIONS OFF)
+
 log_info("Generating Global Settings INTERFACE target")
 add_library(GlobalSettings INTERFACE)
-target_compile_features(GlobalSettings INTERFACE cxx_std_20)
 set_project_warnings(GlobalSettings)
 
 add_subdirectory(external EXCLUDE_FROM_ALL)
 add_subdirectory(include)
+add_subdirectory(lib)
 add_subdirectory(src)
 add_subdirectory(tests)

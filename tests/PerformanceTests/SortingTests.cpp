@@ -1,3 +1,7 @@
+#include "StandardLibrary.hpp"
+
+#include "ProjectLib.hpp"
+
 #include <benchmark/benchmark.h>
 
 static void BM_StringCreation(benchmark::State& state) {
@@ -13,6 +17,5 @@ static void BM_StringCopy(benchmark::State& state) {
   for (auto _ : state)
     std::string copy(x);
 }
-BENCHMARK(BM_StringCopy);
 
-BENCHMARK_MAIN();
+BENCHMARK(BM_StringCopy);
