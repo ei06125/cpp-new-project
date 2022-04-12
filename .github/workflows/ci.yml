@@ -30,6 +30,10 @@ jobs:
         exclude:
           - os: windows-latest
             compiler: gcc
+          - os: macos-latest
+            compiler: msvc
+          - os: ubuntu-latest
+            compiler: msvc
 
         include:
           # Add appropriate variables for gcov version required. This will intentionally break
