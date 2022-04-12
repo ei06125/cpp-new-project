@@ -1,1 +1,392 @@
-build/compile_commands.json
+[
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googlemock\\include -IC:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googlemock -IC:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest\\include -IC:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest /DWIN32 /D_WINDOWS  /Zi /O2 /Ob1 /DNDEBUG -MD -GS -W4 -WX -wd4251 -wd4275 -nologo -J -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -utf-8 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1  -std:c++20 /Foexternal\\googletest\\googlemock\\CMakeFiles\\gmock.dir\\__\\googletest\\src\\gtest-all.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest\\src\\gtest-all.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest\\src\\gtest-all.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googlemock\\include -IC:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googlemock -IC:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest\\include -IC:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest /DWIN32 /D_WINDOWS  /Zi /O2 /Ob1 /DNDEBUG -MD -GS -W4 -WX -wd4251 -wd4275 -nologo -J -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -utf-8 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1  -std:c++20 /Foexternal\\googletest\\googlemock\\CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googlemock\\src\\gmock-all.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googlemock\\src\\gmock-all.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googlemock\\include -IC:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googlemock -IC:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest\\include -IC:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest /DWIN32 /D_WINDOWS  /Zi /O2 /Ob1 /DNDEBUG -MD -GS -W4 -WX -wd4251 -wd4275 -nologo -J -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -utf-8 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1  -std:c++20 /Foexternal\\googletest\\googlemock\\CMakeFiles\\gmock_main.dir\\__\\googletest\\src\\gtest-all.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest\\src\\gtest-all.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest\\src\\gtest-all.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googlemock\\include -IC:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googlemock -IC:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest\\include -IC:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest /DWIN32 /D_WINDOWS  /Zi /O2 /Ob1 /DNDEBUG -MD -GS -W4 -WX -wd4251 -wd4275 -nologo -J -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -utf-8 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1  -std:c++20 /Foexternal\\googletest\\googlemock\\CMakeFiles\\gmock_main.dir\\src\\gmock-all.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googlemock\\src\\gmock-all.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googlemock\\src\\gmock-all.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googlemock\\include -IC:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googlemock -IC:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest\\include -IC:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest /DWIN32 /D_WINDOWS  /Zi /O2 /Ob1 /DNDEBUG -MD -GS -W4 -WX -wd4251 -wd4275 -nologo -J -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -utf-8 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1  -std:c++20 /Foexternal\\googletest\\googlemock\\CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googlemock\\src\\gmock_main.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googlemock\\src\\gmock_main.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest\\include -IC:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest /DWIN32 /D_WINDOWS  /Zi /O2 /Ob1 /DNDEBUG -MD -GS -W4 -WX -wd4251 -wd4275 -nologo -J -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -utf-8 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1  -std:c++20 /Foexternal\\googletest\\googletest\\CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest\\src\\gtest-all.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest\\src\\gtest-all.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest\\include -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest -external:W0 /DWIN32 /D_WINDOWS  /Zi /O2 /Ob1 /DNDEBUG -MD -GS -W4 -WX -wd4251 -wd4275 -nologo -J -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -utf-8 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1  -std:c++20 /Foexternal\\googletest\\googletest\\CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest\\src\\gtest_main.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest\\src\\gtest_main.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1 /DNDEBUG -MD -std:c++20 /Foexternal\\benchmark\\src\\CMakeFiles\\benchmark.dir\\benchmark.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\benchmark.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\benchmark.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1 /DNDEBUG -MD -std:c++20 /Foexternal\\benchmark\\src\\CMakeFiles\\benchmark.dir\\benchmark_api_internal.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\benchmark_api_internal.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\benchmark_api_internal.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1 /DNDEBUG -MD -std:c++20 /Foexternal\\benchmark\\src\\CMakeFiles\\benchmark.dir\\benchmark_name.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\benchmark_name.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\benchmark_name.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1 /DNDEBUG -MD -std:c++20 /Foexternal\\benchmark\\src\\CMakeFiles\\benchmark.dir\\benchmark_register.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\benchmark_register.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\benchmark_register.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1 /DNDEBUG -MD -std:c++20 /Foexternal\\benchmark\\src\\CMakeFiles\\benchmark.dir\\benchmark_runner.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\benchmark_runner.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\benchmark_runner.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1 /DNDEBUG -MD -std:c++20 /Foexternal\\benchmark\\src\\CMakeFiles\\benchmark.dir\\check.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\check.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\check.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1 /DNDEBUG -MD -std:c++20 /Foexternal\\benchmark\\src\\CMakeFiles\\benchmark.dir\\colorprint.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\colorprint.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\colorprint.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1 /DNDEBUG -MD -std:c++20 /Foexternal\\benchmark\\src\\CMakeFiles\\benchmark.dir\\commandlineflags.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\commandlineflags.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\commandlineflags.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1 /DNDEBUG -MD -std:c++20 /Foexternal\\benchmark\\src\\CMakeFiles\\benchmark.dir\\complexity.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\complexity.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\complexity.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1 /DNDEBUG -MD -std:c++20 /Foexternal\\benchmark\\src\\CMakeFiles\\benchmark.dir\\console_reporter.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\console_reporter.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\console_reporter.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1 /DNDEBUG -MD -std:c++20 /Foexternal\\benchmark\\src\\CMakeFiles\\benchmark.dir\\counter.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\counter.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\counter.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1 /DNDEBUG -MD -std:c++20 /Foexternal\\benchmark\\src\\CMakeFiles\\benchmark.dir\\csv_reporter.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\csv_reporter.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\csv_reporter.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1 /DNDEBUG -MD -std:c++20 /Foexternal\\benchmark\\src\\CMakeFiles\\benchmark.dir\\json_reporter.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\json_reporter.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\json_reporter.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1 /DNDEBUG -MD -std:c++20 /Foexternal\\benchmark\\src\\CMakeFiles\\benchmark.dir\\perf_counters.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\perf_counters.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\perf_counters.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1 /DNDEBUG -MD -std:c++20 /Foexternal\\benchmark\\src\\CMakeFiles\\benchmark.dir\\reporter.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\reporter.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\reporter.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1 /DNDEBUG -MD -std:c++20 /Foexternal\\benchmark\\src\\CMakeFiles\\benchmark.dir\\sleep.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\sleep.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\sleep.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1 /DNDEBUG -MD -std:c++20 /Foexternal\\benchmark\\src\\CMakeFiles\\benchmark.dir\\statistics.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\statistics.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\statistics.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1 /DNDEBUG -MD -std:c++20 /Foexternal\\benchmark\\src\\CMakeFiles\\benchmark.dir\\string_util.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\string_util.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\string_util.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1 /DNDEBUG -MD -std:c++20 /Foexternal\\benchmark\\src\\CMakeFiles\\benchmark.dir\\sysinfo.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\sysinfo.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\sysinfo.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1 /DNDEBUG -MD -std:c++20 /Foexternal\\benchmark\\src\\CMakeFiles\\benchmark.dir\\timers.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\timers.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\timers.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1 /DNDEBUG -MD -std:c++20 /Foexternal\\benchmark\\src\\CMakeFiles\\benchmark_main.dir\\benchmark_main.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\benchmark_main.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\src\\benchmark_main.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DTEST_BENCHMARK_LIBRARY_HAS_NO_ASSERTIONS -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1  -MD   -UNDEBUG -std:c++20 /Foexternal\\benchmark\\test\\CMakeFiles\\output_test_helper.dir\\output_test_helper.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\output_test_helper.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\output_test_helper.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DTEST_BENCHMARK_LIBRARY_HAS_NO_ASSERTIONS -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1  -MD   -UNDEBUG -std:c++20 /Foexternal\\benchmark\\test\\CMakeFiles\\benchmark_test.dir\\benchmark_test.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\benchmark_test.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\benchmark_test.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DTEST_BENCHMARK_LIBRARY_HAS_NO_ASSERTIONS -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1  -MD   -UNDEBUG -std:c++20 /Foexternal\\benchmark\\test\\CMakeFiles\\spec_arg_test.dir\\spec_arg_test.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\spec_arg_test.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\spec_arg_test.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DTEST_BENCHMARK_LIBRARY_HAS_NO_ASSERTIONS -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1  -MD   -UNDEBUG -std:c++20 /Foexternal\\benchmark\\test\\CMakeFiles\\benchmark_setup_teardown_test.dir\\benchmark_setup_teardown_test.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\benchmark_setup_teardown_test.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\benchmark_setup_teardown_test.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DTEST_BENCHMARK_LIBRARY_HAS_NO_ASSERTIONS -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1  -MD   -UNDEBUG -std:c++20 /Foexternal\\benchmark\\test\\CMakeFiles\\filter_test.dir\\filter_test.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\filter_test.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\filter_test.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DTEST_BENCHMARK_LIBRARY_HAS_NO_ASSERTIONS -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1  -MD   -UNDEBUG -std:c++20 /Foexternal\\benchmark\\test\\CMakeFiles\\options_test.dir\\options_test.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\options_test.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\options_test.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DTEST_BENCHMARK_LIBRARY_HAS_NO_ASSERTIONS -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1  -MD   -UNDEBUG -std:c++20 /Foexternal\\benchmark\\test\\CMakeFiles\\basic_test.dir\\basic_test.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\basic_test.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\basic_test.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DTEST_BENCHMARK_LIBRARY_HAS_NO_ASSERTIONS -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1  -MD   -UNDEBUG -std:c++20 /Foexternal\\benchmark\\test\\CMakeFiles\\repetitions_test.dir\\repetitions_test.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\repetitions_test.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\repetitions_test.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DTEST_BENCHMARK_LIBRARY_HAS_NO_ASSERTIONS -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1  -MD   -UNDEBUG -std:c++20 /Foexternal\\benchmark\\test\\CMakeFiles\\diagnostics_test.dir\\diagnostics_test.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\diagnostics_test.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\diagnostics_test.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DTEST_BENCHMARK_LIBRARY_HAS_NO_ASSERTIONS -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1  -MD   -UNDEBUG -std:c++20 /Foexternal\\benchmark\\test\\CMakeFiles\\skip_with_error_test.dir\\skip_with_error_test.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\skip_with_error_test.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\skip_with_error_test.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DTEST_BENCHMARK_LIBRARY_HAS_NO_ASSERTIONS -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1  -MD   -UNDEBUG -std:c++20 /Foexternal\\benchmark\\test\\CMakeFiles\\donotoptimize_test.dir\\donotoptimize_test.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\donotoptimize_test.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\donotoptimize_test.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DTEST_BENCHMARK_LIBRARY_HAS_NO_ASSERTIONS -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1  -MD   -UNDEBUG -std:c++20 /Foexternal\\benchmark\\test\\CMakeFiles\\fixture_test.dir\\fixture_test.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\fixture_test.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\fixture_test.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DTEST_BENCHMARK_LIBRARY_HAS_NO_ASSERTIONS -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1  -MD   -UNDEBUG -std:c++20 /Foexternal\\benchmark\\test\\CMakeFiles\\register_benchmark_test.dir\\register_benchmark_test.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\register_benchmark_test.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\register_benchmark_test.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DTEST_BENCHMARK_LIBRARY_HAS_NO_ASSERTIONS -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1  -MD   -UNDEBUG -std:c++20 /Foexternal\\benchmark\\test\\CMakeFiles\\map_test.dir\\map_test.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\map_test.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\map_test.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DTEST_BENCHMARK_LIBRARY_HAS_NO_ASSERTIONS -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1  -MD   -UNDEBUG -std:c++20 /Foexternal\\benchmark\\test\\CMakeFiles\\multiple_ranges_test.dir\\multiple_ranges_test.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\multiple_ranges_test.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\multiple_ranges_test.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DTEST_BENCHMARK_LIBRARY_HAS_NO_ASSERTIONS -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1  -MD   -UNDEBUG -std:c++20 /Foexternal\\benchmark\\test\\CMakeFiles\\args_product_test.dir\\args_product_test.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\args_product_test.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\args_product_test.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DTEST_BENCHMARK_LIBRARY_HAS_NO_ASSERTIONS -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1  -MD   -UNDEBUG -std:c++20 /Foexternal\\benchmark\\test\\CMakeFiles\\link_main_test.dir\\link_main_test.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\link_main_test.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\link_main_test.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DTEST_BENCHMARK_LIBRARY_HAS_NO_ASSERTIONS -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1  -MD   -UNDEBUG -std:c++20 /Foexternal\\benchmark\\test\\CMakeFiles\\reporter_output_test.dir\\reporter_output_test.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\reporter_output_test.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\reporter_output_test.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DTEST_BENCHMARK_LIBRARY_HAS_NO_ASSERTIONS -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1  -MD   -UNDEBUG -std:c++20 /Foexternal\\benchmark\\test\\CMakeFiles\\templated_fixture_test.dir\\templated_fixture_test.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\templated_fixture_test.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\templated_fixture_test.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DTEST_BENCHMARK_LIBRARY_HAS_NO_ASSERTIONS -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1  -MD   -UNDEBUG -std:c++20 /Foexternal\\benchmark\\test\\CMakeFiles\\user_counters_test.dir\\user_counters_test.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\user_counters_test.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\user_counters_test.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DTEST_BENCHMARK_LIBRARY_HAS_NO_ASSERTIONS -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1  -MD   -UNDEBUG -std:c++20 /Foexternal\\benchmark\\test\\CMakeFiles\\perf_counters_test.dir\\perf_counters_test.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\perf_counters_test.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\perf_counters_test.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DTEST_BENCHMARK_LIBRARY_HAS_NO_ASSERTIONS -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1  -MD   -UNDEBUG -std:c++20 /Foexternal\\benchmark\\test\\CMakeFiles\\internal_threading_test.dir\\internal_threading_test.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\internal_threading_test.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\internal_threading_test.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DTEST_BENCHMARK_LIBRARY_HAS_NO_ASSERTIONS -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1  -MD   -UNDEBUG -std:c++20 /Foexternal\\benchmark\\test\\CMakeFiles\\report_aggregates_only_test.dir\\report_aggregates_only_test.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\report_aggregates_only_test.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\report_aggregates_only_test.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DTEST_BENCHMARK_LIBRARY_HAS_NO_ASSERTIONS -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1  -MD   -UNDEBUG -std:c++20 /Foexternal\\benchmark\\test\\CMakeFiles\\display_aggregates_only_test.dir\\display_aggregates_only_test.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\display_aggregates_only_test.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\display_aggregates_only_test.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DTEST_BENCHMARK_LIBRARY_HAS_NO_ASSERTIONS -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1  -MD   -UNDEBUG -std:c++20 /Foexternal\\benchmark\\test\\CMakeFiles\\user_counters_tabular_test.dir\\user_counters_tabular_test.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\user_counters_tabular_test.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\user_counters_tabular_test.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DTEST_BENCHMARK_LIBRARY_HAS_NO_ASSERTIONS -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1  -MD   -UNDEBUG -std:c++20 /Foexternal\\benchmark\\test\\CMakeFiles\\user_counters_thousands_test.dir\\user_counters_thousands_test.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\user_counters_thousands_test.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\user_counters_thousands_test.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DTEST_BENCHMARK_LIBRARY_HAS_NO_ASSERTIONS -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1  -MD   -UNDEBUG -std:c++20 /Foexternal\\benchmark\\test\\CMakeFiles\\memory_manager_test.dir\\memory_manager_test.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\memory_manager_test.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\memory_manager_test.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DTEST_BENCHMARK_LIBRARY_HAS_NO_ASSERTIONS -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1  -MD   -UNDEBUG -std:c++20 /Foexternal\\benchmark\\test\\CMakeFiles\\complexity_test.dir\\complexity_test.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\complexity_test.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\complexity_test.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DTEST_BENCHMARK_LIBRARY_HAS_NO_ASSERTIONS -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googlemock\\include -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googlemock -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest\\include -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest -external:W0 /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1  -MD   -UNDEBUG -std:c++20 /Foexternal\\benchmark\\test\\CMakeFiles\\benchmark_gtest.dir\\benchmark_gtest.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\benchmark_gtest.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\benchmark_gtest.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DTEST_BENCHMARK_LIBRARY_HAS_NO_ASSERTIONS -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googlemock\\include -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googlemock -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest\\include -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest -external:W0 /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1  -MD   -UNDEBUG -std:c++20 /Foexternal\\benchmark\\test\\CMakeFiles\\benchmark_name_gtest.dir\\benchmark_name_gtest.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\benchmark_name_gtest.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\benchmark_name_gtest.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DTEST_BENCHMARK_LIBRARY_HAS_NO_ASSERTIONS -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googlemock\\include -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googlemock -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest\\include -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest -external:W0 /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1  -MD   -UNDEBUG -std:c++20 /Foexternal\\benchmark\\test\\CMakeFiles\\benchmark_random_interleaving_gtest.dir\\benchmark_random_interleaving_gtest.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\benchmark_random_interleaving_gtest.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\benchmark_random_interleaving_gtest.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DTEST_BENCHMARK_LIBRARY_HAS_NO_ASSERTIONS -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googlemock\\include -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googlemock -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest\\include -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest -external:W0 /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1  -MD   -UNDEBUG -std:c++20 /Foexternal\\benchmark\\test\\CMakeFiles\\commandlineflags_gtest.dir\\commandlineflags_gtest.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\commandlineflags_gtest.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\commandlineflags_gtest.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DTEST_BENCHMARK_LIBRARY_HAS_NO_ASSERTIONS -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googlemock\\include -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googlemock -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest\\include -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest -external:W0 /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1  -MD   -UNDEBUG -std:c++20 /Foexternal\\benchmark\\test\\CMakeFiles\\statistics_gtest.dir\\statistics_gtest.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\statistics_gtest.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\statistics_gtest.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DTEST_BENCHMARK_LIBRARY_HAS_NO_ASSERTIONS -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googlemock\\include -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googlemock -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest\\include -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest -external:W0 /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1  -MD   -UNDEBUG -std:c++20 /Foexternal\\benchmark\\test\\CMakeFiles\\string_util_gtest.dir\\string_util_gtest.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\string_util_gtest.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\string_util_gtest.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DTEST_BENCHMARK_LIBRARY_HAS_NO_ASSERTIONS -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googlemock\\include -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googlemock -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest\\include -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest -external:W0 /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1  -MD   -UNDEBUG -std:c++20 /Foexternal\\benchmark\\test\\CMakeFiles\\perf_counters_gtest.dir\\perf_counters_gtest.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\perf_counters_gtest.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\perf_counters_gtest.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DTEST_BENCHMARK_LIBRARY_HAS_NO_ASSERTIONS -D_CRT_SECURE_NO_WARNINGS -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googlemock\\include -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googlemock -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest\\include -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest -external:W0 /DWIN32 /D_WINDOWS /EHsc /W4 /Zi /O2 /Ob1  -MD   -UNDEBUG -std:c++20 /Foexternal\\benchmark\\test\\CMakeFiles\\time_unit_gtest.dir\\time_unit_gtest.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\time_unit_gtest.cc",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\test\\time_unit_gtest.cc"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DDOCTEST_CONFIG_IMPLEMENT_WITH_MAIN -IC:\\dev\\ei06125\\cpp-new-project\\external\\doctest /DWIN32 /D_WINDOWS /EHsc /Zi /O2 /Ob1 /DNDEBUG -MD /Foexternal\\doctest\\CMakeFiles\\doctest_with_main.dir\\doctest\\parts\\doctest.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\external\\doctest\\doctest\\parts\\doctest.cpp",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\external\\doctest\\doctest\\parts\\doctest.cpp"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP /DWIN32 /D_WINDOWS /EHsc /Zi /O2 /Ob1 /DNDEBUG -MD -std:c++20 /Foinclude\\CMakeFiles\\StandardLibraryPCH.dir\\StandardLibrary.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\include\\StandardLibrary.cpp",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\include\\StandardLibrary.cpp"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\dev\\ei06125\\cpp-new-project\\include /DWIN32 /D_WINDOWS /EHsc /Zi /O2 /Ob1 /DNDEBUG -MD /W4 /w14242 /w14254 /w14263 /w14265 /w14287 /we4289 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928 /permissive- /WX /Zc:__cplusplus -std:c++20 /Folib\\CMakeFiles\\ProjectLib.dir\\Project\\Sorting.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\lib\\Project\\Sorting.cpp",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\lib\\Project\\Sorting.cpp"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\dev\\ei06125\\cpp-new-project\\include /DWIN32 /D_WINDOWS /EHsc /Zi /O2 /Ob1 /DNDEBUG -MD /W4 /w14242 /w14254 /w14263 /w14265 /w14287 /we4289 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928 /permissive- /WX /Zc:__cplusplus -std:c++20 /Fosrc\\CMakeFiles\\ProjectExec.dir\\main.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\src\\main.cpp",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\src\\main.cpp"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\dev\\ei06125\\cpp-new-project\\include /DWIN32 /D_WINDOWS /EHsc /Zi /O2 /Ob1 /DNDEBUG -MD /W4 /w14242 /w14254 /w14263 /w14265 /w14287 /we4289 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928 /permissive- /WX /Zc:__cplusplus -std:c++20 /Fosrc\\CMakeFiles\\ProjectExec.dir\\__\\lib\\Project\\Sorting.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\lib\\Project\\Sorting.cpp",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\lib\\Project\\Sorting.cpp"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\dev\\ei06125\\cpp-new-project\\include -IC:\\dev\\ei06125\\cpp-new-project\\lib -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest\\include -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googlemock\\include -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googlemock -external:W0 /DWIN32 /D_WINDOWS /EHsc /Zi /O2 /Ob1 /DNDEBUG -MD /W4 /w14242 /w14254 /w14263 /w14265 /w14287 /we4289 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928 /permissive- /WX /Zc:__cplusplus -std:c++20 /Fotests\\UnitTests\\CMakeFiles\\ProjectUnitTests.dir\\SortingTests.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\tests\\UnitTests\\SortingTests.cpp",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\tests\\UnitTests\\SortingTests.cpp"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\dev\\ei06125\\cpp-new-project\\include -IC:\\dev\\ei06125\\cpp-new-project\\lib -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest\\include -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googlemock\\include -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googlemock -external:W0 /DWIN32 /D_WINDOWS /EHsc /Zi /O2 /Ob1 /DNDEBUG -MD /W4 /w14242 /w14254 /w14263 /w14265 /w14287 /we4289 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928 /permissive- /WX /Zc:__cplusplus -std:c++20 /Fotests\\UnitTests\\CMakeFiles\\ProjectUnitTests.dir\\unit_tests_main.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\tests\\UnitTests\\unit_tests_main.cpp",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\tests\\UnitTests\\unit_tests_main.cpp"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\dev\\ei06125\\cpp-new-project\\include -IC:\\dev\\ei06125\\cpp-new-project\\lib -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest\\include -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googletest -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googlemock\\include -external:I C:\\dev\\ei06125\\cpp-new-project\\external\\googletest\\googlemock -external:W0 /DWIN32 /D_WINDOWS /EHsc /Zi /O2 /Ob1 /DNDEBUG -MD /W4 /w14242 /w14254 /w14263 /w14265 /w14287 /we4289 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928 /permissive- /WX /Zc:__cplusplus -std:c++20 /Fotests\\UnitTests\\CMakeFiles\\ProjectUnitTests.dir\\__\\__\\lib\\Project\\Sorting.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\lib\\Project\\Sorting.cpp",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\lib\\Project\\Sorting.cpp"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\dev\\ei06125\\cpp-new-project\\include -IC:\\dev\\ei06125\\cpp-new-project\\lib -IC:\\dev\\ei06125\\cpp-new-project\\external\\doctest /DWIN32 /D_WINDOWS /EHsc /Zi /O2 /Ob1 /DNDEBUG -MD /W4 /w14242 /w14254 /w14263 /w14265 /w14287 /we4289 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928 /permissive- /WX /Zc:__cplusplus -std:c++20 /Fotests\\AcceptanceTests\\CMakeFiles\\ProjectAcceptanceTests.dir\\SortingTests.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\tests\\AcceptanceTests\\SortingTests.cpp",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\tests\\AcceptanceTests\\SortingTests.cpp"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\dev\\ei06125\\cpp-new-project\\include -IC:\\dev\\ei06125\\cpp-new-project\\lib -IC:\\dev\\ei06125\\cpp-new-project\\external\\doctest /DWIN32 /D_WINDOWS /EHsc /Zi /O2 /Ob1 /DNDEBUG -MD /W4 /w14242 /w14254 /w14263 /w14265 /w14287 /we4289 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928 /permissive- /WX /Zc:__cplusplus -std:c++20 /Fotests\\AcceptanceTests\\CMakeFiles\\ProjectAcceptanceTests.dir\\acceptance_tests_main.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\tests\\AcceptanceTests\\acceptance_tests_main.cpp",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\tests\\AcceptanceTests\\acceptance_tests_main.cpp"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\dev\\ei06125\\cpp-new-project\\include -IC:\\dev\\ei06125\\cpp-new-project\\lib -IC:\\dev\\ei06125\\cpp-new-project\\external\\doctest /DWIN32 /D_WINDOWS /EHsc /Zi /O2 /Ob1 /DNDEBUG -MD /W4 /w14242 /w14254 /w14263 /w14265 /w14287 /we4289 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928 /permissive- /WX /Zc:__cplusplus -std:c++20 /Fotests\\AcceptanceTests\\CMakeFiles\\ProjectAcceptanceTests.dir\\__\\__\\lib\\Project\\Sorting.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\lib\\Project\\Sorting.cpp",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\lib\\Project\\Sorting.cpp"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\dev\\ei06125\\cpp-new-project\\include -IC:\\dev\\ei06125\\cpp-new-project\\lib -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /Zi /O2 /Ob1 /DNDEBUG -MD /W4 /w14242 /w14254 /w14263 /w14265 /w14287 /we4289 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928 /permissive- /WX /Zc:__cplusplus -std:c++20 /Fotests\\PerformanceTests\\CMakeFiles\\ProjectPerformanceTests.dir\\SortingTests.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\tests\\PerformanceTests\\SortingTests.cpp",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\tests\\PerformanceTests\\SortingTests.cpp"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\dev\\ei06125\\cpp-new-project\\include -IC:\\dev\\ei06125\\cpp-new-project\\lib -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /Zi /O2 /Ob1 /DNDEBUG -MD /W4 /w14242 /w14254 /w14263 /w14265 /w14287 /we4289 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928 /permissive- /WX /Zc:__cplusplus -std:c++20 /Fotests\\PerformanceTests\\CMakeFiles\\ProjectPerformanceTests.dir\\performance_tests_main.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\tests\\PerformanceTests\\performance_tests_main.cpp",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\tests\\PerformanceTests\\performance_tests_main.cpp"
+},
+{
+  "directory": "C:/dev/ei06125/cpp-new-project/out/build/windows-msvc-dev",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\dev\\ei06125\\cpp-new-project\\include -IC:\\dev\\ei06125\\cpp-new-project\\lib -IC:\\dev\\ei06125\\cpp-new-project\\external\\benchmark\\include -IC:\\dev\\ei06125\\cpp-new-project\\out\\build\\windows-msvc-dev\\external\\benchmark\\include /DWIN32 /D_WINDOWS /EHsc /Zi /O2 /Ob1 /DNDEBUG -MD /W4 /w14242 /w14254 /w14263 /w14265 /w14287 /we4289 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928 /permissive- /WX /Zc:__cplusplus -std:c++20 /Fotests\\PerformanceTests\\CMakeFiles\\ProjectPerformanceTests.dir\\__\\__\\lib\\Project\\Sorting.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\dev\\ei06125\\cpp-new-project\\lib\\Project\\Sorting.cpp",
+  "file": "C:\\dev\\ei06125\\cpp-new-project\\lib\\Project\\Sorting.cpp"
+}
+]

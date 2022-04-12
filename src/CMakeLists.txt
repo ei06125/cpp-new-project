@@ -1,5 +1,8 @@
 # Copyright (C) ei06125. All Rights Reserved.
 
-add_executable(main)
-target_sources(main PRIVATE main.cpp)
-target_link_libraries(main PRIVATE GlobalSettings)
+add_executable(ProjectExec)
+target_sources(ProjectExec PRIVATE main.cpp)
+target_link_libraries(ProjectExec PRIVATE ProjectLib)
+target_include_directories(
+  ProjectExec PRIVATE ${StandardLibraryPCH_INCLUDE_DIR}
+)

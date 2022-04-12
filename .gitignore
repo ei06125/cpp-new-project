@@ -12,6 +12,9 @@
 # WARNING:
 # Visual Studio Code .vscode folder is overwritten
 
+# Created by ei06125
+out/
+
 # Created by https://www.toptal.com/developers/gitignore/api/windows,linux,visualstudio,visualstudiocode,cmake,git
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,linux,visualstudio,visualstudiocode,cmake,git
 
