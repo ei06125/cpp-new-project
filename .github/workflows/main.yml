@@ -79,7 +79,7 @@ jobs:
         with:
           path: |
             ~/.cache/cpp-build
-          key: ${{ rnner.os }}-cpp-${{ hashFiles('**/cpp.sum') }}
+          key: ${{ runner.os }}-cpp-${{ hashFiles('**/cpp.sum') }}
 
       - name: Setup Cpp
         uses: aminya/setup-cpp@v1
