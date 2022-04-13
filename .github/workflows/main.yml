@@ -70,9 +70,16 @@ jobs:
         #   package_generator: ZIP
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
         with:
           submodules: "true"
+      - name: Setup the cache after checkout to build a cache key using
+        uses: actions/cache@v2
+        with:
+          path: |
+            ~/.cache/cpp-build
+          key: ${{ rnner.os }}-cpp-${{ hashFiles('**/cpp.sum') }}
 
       - name: Setup Cpp
         uses: aminya/setup-cpp@v1

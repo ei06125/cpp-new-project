@@ -16,7 +16,10 @@
       "cacheVariables": {
         "BENCHMARK_ENABLE_GTEST_TESTS": "FALSE",
         "BENCHMARK_ENABLE_TESTING": "FALSE",
-        "ENABLE_PERFORMANCE_TESTS": "FALSE"
+        "ENABLE_PERFORMANCE_TESTS": "FALSE",
+        "CMAKE_CROSSCOMPILING":"1",
+        "RUN_HAVE_STD_REGEX":"0",
+        "RUN_HAVE_POSIX_REGEX":"0"
       }
     },
     {
