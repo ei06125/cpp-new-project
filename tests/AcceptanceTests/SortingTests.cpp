@@ -36,9 +36,7 @@ SCENARIO("Sorting a shuffled vector") {
       cpy::project::MergeSort(d);
       std::sort(c.begin(), c.end());
 
-      THEN("d is equal to c and both are sorted") {
-        CHECK(c == d);
-      }
+      THEN("d is equal to c and both are sorted") { CHECK(c == d); }
     }
   }
 }
