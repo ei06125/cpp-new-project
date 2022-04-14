@@ -1,8 +1,0 @@
-#!/bin/bash
-
-echo "[git][install-hooks] Installing git-hooks in the project"
-
-cp pre-commit ../../../.git/hooks/pre-commit.dup
-cp pre-push ../../../.git/hooks/pre-push.dup
-
-exit 0
