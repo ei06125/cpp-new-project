@@ -18,7 +18,9 @@ echo "[git][pre-push] Applying clang-format - DONE"
 CMAKE_BINARY_DIR=build/CI
 CMAKE_BUILD_TYPE=Release
 
-cmake -S . -B $CMAKE_BINARY_DIR -DCMAKE_BUILD_TYPE=$CMAKE_BUILD_TYPE -DBENCHMARK_ENABLE_GTEST_TESTS=FALSE -DBENCHMARK_ENABLE_TESTING=FALSE -DCMAKE_CROSSCOMPILING=1 -DRUN_HAVE_STD_REGEX=0 -DRUN_HAVE_POSIX_REGEX=0 && cmake --build $CMAKE_BINARY_DIR --config $CMAKE_BUILD_TYPE --parallel 6 &&
-    ctest --test-dir $CMAKE_BINARY_DIR -C $CMAKE_BUILD_TYPE || echo "Failed to build and test"
-
+echo "[git][pre-push] Building and Testing..."
+rm -rf $CMAKE_BINARY_DIR
+cmake -S . -B $CMAKE_BINARY_DIR -DCMAKE_BUILD_TYPE=$CMAKE_BUILD_TYPE -DBENCHMARK_ENABLE_GTEST_TESTS=FALSE -DBENCHMARK_ENABLE_TESTING=FALSE -DCMAKE_CROSSCOMPILING=1 -DRUN_HAVE_STD_REGEX=0 -DRUN_HAVE_POSIX_REGEX=0 && cmake --build $CMAKE_BINARY_DIR --config $CMAKE_BUILD_TYPE --clean-first --parallel 6 &&
+    ctest --test-dir $CMAKE_BINARY_DIR -C $CMAKE_BUILD_TYPE || echo "[git][pre-push] Building and Testing - FAILED"
+echo "[git][pre-push] Building and Testing - DONE"
 exit 0
