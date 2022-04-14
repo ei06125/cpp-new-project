@@ -6,8 +6,18 @@ echo "[git][pre-commit] Running pre-commit hook..."
 # 1. Run Cmake
 # =============================================================================
 
-cmake -S . -B build/CI -DCMAKE_BUILD_TYPE=Release
-cmake --build build/CI --config Release
-ctest --test-dir build/CI
+CMAKE_BINARY_DIR=build/CI
+CMAKE_BUILD_TYPE=Release
+
+CMAKE_ARGS=\
+    -DBENCHMARK_ENABLE_GTEST_TESTS:FALSE\
+    -DBENCHMARK_ENABLE_TESTING: FALSE\
+    -DCMAKE_CROSSCOMPILING:1\
+    -DRUN_HAVE_STD_REGEX:0\
+    -DRUN_HAVE_POSIX_REGEX:0
+
+cmake -S . -B $CMAKE_BINARY_DIR -DCMAKE_BUILD_TYPE=$CMAKE_BUILD_TYPE $CMAKE_ARGS
+cmake --build $CMAKE_BINARY_DIR --config $CMAKE_BUILD_TYPE
+ctest --test-dir $CMAKE_BINARY_DIR --config $CMAKE_BUILD_TYPE
 
 exit 0
