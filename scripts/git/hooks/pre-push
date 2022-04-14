@@ -2,4 +2,23 @@
 
 echo "[git][pre-push] Running pre-push hook..."
 
+# =============================================================================
+# 1. Run Cmake
+# =============================================================================
+
+echo "[git][pre-push] Applying clang-format..."
+find . -path "./lib/**.hpp" | xargs -I % clang-format -i %
+find . -path "./lib/**.cpp" | xargs -I % clang-format -i %
+find . -path "./src/**.hpp" | xargs -I % clang-format -i %
+find . -path "./src/**.cpp" | xargs -I % clang-format -i %
+find . -path "./tests/**.hpp" | xargs -I % clang-format -i %
+find . -path "./tests/**.cpp" | xargs -I % clang-format -i %
+echo "[git][pre-push] Applying clang-format - DONE"
+
+CMAKE_BINARY_DIR=build/CI
+CMAKE_BUILD_TYPE=Release
+
+cmake -S . -B $CMAKE_BINARY_DIR -DCMAKE_BUILD_TYPE=$CMAKE_BUILD_TYPE -DBENCHMARK_ENABLE_GTEST_TESTS=FALSE -DBENCHMARK_ENABLE_TESTING=FALSE -DCMAKE_CROSSCOMPILING=1 -DRUN_HAVE_STD_REGEX=0 -DRUN_HAVE_POSIX_REGEX=0 && cmake --build $CMAKE_BINARY_DIR --config $CMAKE_BUILD_TYPE --parallel 6 &&
+    ctest --test-dir $CMAKE_BINARY_DIR -C $CMAKE_BUILD_TYPE || echo "Failed to build and test"
+
 exit 0
