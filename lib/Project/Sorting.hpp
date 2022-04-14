@@ -4,6 +4,6 @@
 
 namespace cpy::project {
 
-void MergeSort(std::vector<int>& data);
+  void MergeSort(std::vector<int>& data);
 
 } // namespace cpy::project
