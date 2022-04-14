@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "[git][pre-push] Running pre-push hook..."
+
+exit 0

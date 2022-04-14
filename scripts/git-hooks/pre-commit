@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "[git][pre-commit] Running pre-commit hook..."
+
+exit 0
