@@ -32,18 +32,18 @@ jobs:
           - Debug
 
         exclude:
-          - os: windows-latest
+          - os: windows-2022
             compiler: gcc
             # no msvc on non-windows OS
-          - os: macos-latest
+          - os: macos-11
             compiler: msvc
-          - os: ubuntu-latest
+          - os: ubuntu-20.04
             compiler: msvc
           # -------------------------------------------------------------------
           # because of the following problem: https://stackoverflow.com/questions/68878564/missing-typename-in-gcc-11-1-0-ranges-header
           # we exclude ubuntu-latest with llvm from the matrix
           # -------------------------------------------------------------------
-          - os: ubuntu-latest
+          - os: ubuntu-20.04
             compiler: llvm
 
         # include overrides default and exclude rules so it should come last
