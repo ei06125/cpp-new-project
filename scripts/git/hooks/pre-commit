@@ -3,7 +3,7 @@
 echo "[git][pre-commit] Running pre-commit hook..."
 
 # =============================================================================
-# 1. Run Cmake
+# Apply clang-format TODO: and cmake-format
 # =============================================================================
 
 echo "[git][pre-commit] Applying clang-format..."
@@ -15,10 +15,16 @@ find . -path "./tests/**.hpp" | xargs -I % clang-format -i %
 find . -path "./tests/**.cpp" | xargs -I % clang-format -i %
 echo "[git][pre-commit] Applying clang-format - DONE"
 
+# =============================================================================
+# Generate, Build and Test with cmake
+# =============================================================================
+
 CMAKE_BINARY_DIR=build/CI
 CMAKE_BUILD_TYPE=Release
 
+echo "[git][pre-commit] Building and Testing..."
 cmake -S . -B $CMAKE_BINARY_DIR -DCMAKE_BUILD_TYPE=$CMAKE_BUILD_TYPE -DENABLE_PERFORMANCE_TESTS=FALSE -DBENCHMARK_ENABLE_GTEST_TESTS=FALSE -DBENCHMARK_ENABLE_TESTING=FALSE -DCMAKE_CROSSCOMPILING=1 -DRUN_HAVE_STD_REGEX=0 -DRUN_HAVE_POSIX_REGEX=0 && cmake --build $CMAKE_BINARY_DIR --config $CMAKE_BUILD_TYPE --parallel 6 &&
-    ctest --test-dir $CMAKE_BINARY_DIR -C $CMAKE_BUILD_TYPE || echo "Failed to build and test"
+    ctest --test-dir $CMAKE_BINARY_DIR -C $CMAKE_BUILD_TYPE || echo "[git][pre-commit] Building and Testing - FAILED"
+echo "[git][pre-commit] Building and Testing - DONE"
 
 exit 0
