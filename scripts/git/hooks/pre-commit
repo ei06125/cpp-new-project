@@ -35,6 +35,7 @@ find . -path "./src/**.hpp" | xargs -I % clang-format -i %
 find . -path "./src/**.cpp" | xargs -I % clang-format -i %
 find . -path "./tests/**.hpp" | xargs -I % clang-format -i %
 find . -path "./tests/**.cpp" | xargs -I % clang-format -i %
+find . -path "./**/CMakeLists.txt" | xargs -I % cmake-format -i % -c .cmake-format.yaml
 log_trace "Applying clang-format - DONE"
 
 # =============================================================================
