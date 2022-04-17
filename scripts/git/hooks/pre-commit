@@ -51,5 +51,6 @@ log_info "Generating build system..." && cmake -S . -B $CMAKE_BINARY_DIR -DCMAKE
 echo ""
 log_trace "Building and Testing - DONE"
 log_info "Building and Testing succeeded!"
+echo ""
 
 exit 0

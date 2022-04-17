@@ -6,6 +6,8 @@
 # according to https://www.youtube.com/watch?v=fMYv6-SZsSo
 # =============================================================================
 
+source $(pwd)/scripts/utils/logger.sh
+
 log_trace "Running pre-push hook..."
 
 # =============================================================================
@@ -22,5 +24,6 @@ log_info "Generating build system..." && cmake -S . -B $CMAKE_BINARY_DIR -DCMAKE
 echo ""
 log_trace "Building and Testing - DONE"
 log_info "Building and Testing succeeded!"
+echo ""
 
 exit 0
