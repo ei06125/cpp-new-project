@@ -1,19 +1,41 @@
 #!/bin/sh
 
-echo "[git][pre-commit] Running pre-commit hook..."
+# =============================================================================
+# Fun Fact: we can use the following shebang line for cross-compiling:
+# /* #!/bin/sh; C:/Program\ Files/path/to/Git/usr/bin/sh.exe */
+# according to https://www.youtube.com/watch?v=fMYv6-SZsSo
+# =============================================================================
+
+source $(pwd)/scripts/utils/logger.sh
+
+log_trace "Running pre-commit hook..."
+
+# =============================================================================
+# Assert that git user's email is valid (under the company's domain)
+# =============================================================================
+
+# change `domain` to use your company's domain
+domain="outlook.com"
+usermail=$(git config user.email)
+if [[ "$usermail" != *"@$domain" ]]; then
+    log_fatal "Invalid username: $usermail! Please config git to use your company's email address."
+    exit 1
+fi
+
+# We could also check if the username is within a list of names
 
 # =============================================================================
 # Apply clang-format TODO: and cmake-format
 # =============================================================================
 
-echo "[git][pre-commit] Applying clang-format..."
+log_trace "Applying clang-format..."
 find . -path "./lib/**.hpp" | xargs -I % clang-format -i %
 find . -path "./lib/**.cpp" | xargs -I % clang-format -i %
 find . -path "./src/**.hpp" | xargs -I % clang-format -i %
 find . -path "./src/**.cpp" | xargs -I % clang-format -i %
 find . -path "./tests/**.hpp" | xargs -I % clang-format -i %
 find . -path "./tests/**.cpp" | xargs -I % clang-format -i %
-echo "[git][pre-commit] Applying clang-format - DONE"
+log_trace "Applying clang-format - DONE"
 
 # =============================================================================
 # Generate, Build and Test with cmake
@@ -22,9 +44,12 @@ echo "[git][pre-commit] Applying clang-format - DONE"
 CMAKE_BINARY_DIR=build/CI
 CMAKE_BUILD_TYPE=Release
 
-echo "[git][pre-commit] Building and Testing..."
-cmake -S . -B $CMAKE_BINARY_DIR -DCMAKE_BUILD_TYPE=$CMAKE_BUILD_TYPE -DENABLE_PERFORMANCE_TESTS=FALSE -DBENCHMARK_ENABLE_GTEST_TESTS=FALSE -DBENCHMARK_ENABLE_TESTING=FALSE -DCMAKE_CROSSCOMPILING=1 -DRUN_HAVE_STD_REGEX=0 -DRUN_HAVE_POSIX_REGEX=0 && cmake --build $CMAKE_BINARY_DIR --config $CMAKE_BUILD_TYPE --parallel 6 &&
-    ctest --test-dir $CMAKE_BINARY_DIR -C $CMAKE_BUILD_TYPE || echo "[git][pre-commit] Building and Testing - FAILED"
-echo "[git][pre-commit] Building and Testing - DONE"
+log_trace "Building and Testing..."
+log_info "Generating build system..." && cmake -S . -B $CMAKE_BINARY_DIR -DCMAKE_BUILD_TYPE=$CMAKE_BUILD_TYPE -DENABLE_PERFORMANCE_TESTS=FALSE -DBENCHMARK_ENABLE_GTEST_TESTS=FALSE -DBENCHMARK_ENABLE_TESTING=FALSE -DCMAKE_CROSSCOMPILING=1 -DRUN_HAVE_STD_REGEX=0 -DRUN_HAVE_POSIX_REGEX=0 && log_info "Building..." && cmake --build $CMAKE_BINARY_DIR --config $CMAKE_BUILD_TYPE --parallel 6 && log_info "Testing..." &&
+    ctest --test-dir $CMAKE_BINARY_DIR -C $CMAKE_BUILD_TYPE || log_error "Building or Testing - FAILED"
+
+echo ""
+log_trace "Building and Testing - DONE"
+log_info "Building and Testing succeeded!"
 
 exit 0
