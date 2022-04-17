@@ -35,10 +35,10 @@ find . -path "./src/**.hpp" | xargs -I % clang-format -i %
 find . -path "./src/**.cpp" | xargs -I % clang-format -i %
 find . -path "./tests/**.hpp" | xargs -I % clang-format -i %
 find . -path "./tests/**.cpp" | xargs -I % clang-format -i %
-find . -path "./CMakeLists.txt" | xargs -I % cmake-format -i % -c .cmake-format.yaml
-find . -path "./src/**/CMakeLists.txt" | xargs -I % cmake-format -i % -c .cmake-format.yaml
-find . -path "./lib/**/CMakeLists.txt" | xargs -I % cmake-format -i % -c .cmake-format.yaml
-find . -path "./tests/**/CMakeLists.txt" | xargs -I % cmake-format -i % -c .cmake-format.yaml
+find . -path "./CMakeLists.txt" | xargs -I % cmake-format -i % -c .cmake-format.yaml 2>/dev/null
+find . -path "./src/**/CMakeLists.txt" | xargs -I % cmake-format -i % -c .cmake-format.yaml 2>/dev/null
+find . -path "./lib/**/CMakeLists.txt" | xargs -I % cmake-format -i % -c .cmake-format.yaml 2>/dev/null
+find . -path "./tests/**/CMakeLists.txt" | xargs -I % cmake-format -i % -c .cmake-format.yaml 2>/dev/null
 log_trace "Applying clang-format - DONE"
 
 # =============================================================================

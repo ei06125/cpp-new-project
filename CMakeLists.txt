@@ -18,12 +18,12 @@ set(CMAKE_SUPPRESS_REGENERATION true)
 set(CMAKE_CXX_STANDARD 23) # c++latest
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-    log_info("Generating Global Settings INTERFACE target")
+log_info("Generating Global Settings INTERFACE target")
 add_library(GlobalSettings INTERFACE)
 set_project_warnings(GlobalSettings)
 
 add_subdirectory(external)
 add_subdirectory(include)
 add_subdirectory(lib)
-    add_subdirectory(src)
+add_subdirectory(src)
 add_subdirectory(tests)
