@@ -8,7 +8,7 @@ on:
     branches: [master]
 
 env:
-  VCPKG_CMAKE_SOURCE_DIR: "${{ github.workspace }}/tools/vcpkg/scripts/buildsystems"
+  VCPKG_CMAKE_SOURCE_DIR: "tools/vcpkg/scripts/buildsystems"
 jobs:
   Test:
     runs-on: ${{ matrix.os }}
