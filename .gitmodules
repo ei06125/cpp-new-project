@@ -1,16 +1,16 @@
 [submodule "tools"]
 	path = tools
-	url = git@github.com:ei06125/cpp-build-tools.git
+	url = https://github.com/ei06125/cpp-build-tools.git
 x
 [submodule "external/googletest"]
 	path = external/googletest
-	url = git@github.com:google/googletest.git
+	url = https://github.com/google/googletest.git
 [submodule "external/benchmark"]
 	path = external/benchmark
-	url = git@github.com:google/benchmark.git
+	url = https://github.com/google/benchmark.git
 [submodule "include"]
 	path = include
-	url = git@github.com:ei06125/cpp-standard-library-pch.git
+	url = https://github.com/ei06125/cpp-standard-library-pch.git
 [submodule "external/doctest"]
 	path = external/doctest
-	url = git@github.com:doctest/doctest.git
+	url = https://github.com/doctest/doctest.git

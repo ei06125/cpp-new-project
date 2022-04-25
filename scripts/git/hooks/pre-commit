@@ -8,7 +8,7 @@
 
 source $(pwd)/scripts/utils/logger.sh
 
-log_trace "Running pre-commit hook..."
+log_info "Running pre-commit hook..."
 
 # =============================================================================
 # Assert that git user's email is valid (under the company's domain)
@@ -28,7 +28,7 @@ fi
 # Apply clang-format TODO: and cmake-format
 # =============================================================================
 
-log_trace "Applying clang-format..."
+log_info "Applying clang-format..."
 find . -path "./lib/**.hpp" | xargs -I % clang-format -i %
 find . -path "./lib/**.cpp" | xargs -I % clang-format -i %
 find . -path "./src/**.hpp" | xargs -I % clang-format -i %
@@ -39,14 +39,14 @@ find . -path "./CMakeLists.txt" | xargs -I % cmake-format -i % -c .cmake-format.
 find . -path "./src/**/CMakeLists.txt" | xargs -I % cmake-format -i % -c .cmake-format.yaml 2>/dev/null
 find . -path "./lib/**/CMakeLists.txt" | xargs -I % cmake-format -i % -c .cmake-format.yaml 2>/dev/null
 find . -path "./tests/**/CMakeLists.txt" | xargs -I % cmake-format -i % -c .cmake-format.yaml 2>/dev/null
-log_trace "Applying clang-format - DONE"
+log_info "Applying clang-format - DONE"
 
 # =============================================================================
 # Generate, Build and Test with cmake
 # =============================================================================
 
 CMAKE_TOOLCHAIN_FILE_DIR=$(pwd)/tools/vcpkg/scripts/buildsystems
-CMAKE_BINARY_DIR=build/CI/pre-commit
+CMAKE_BINARY_DIR=build/CI/
 CMAKE_BUILD_TYPE=Release
 
 log_trace "Building and Testing..."

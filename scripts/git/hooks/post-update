@@ -1,0 +1,12 @@
+#!/bin/sh
+#
+# An example hook script to prepare a packed repository for use over
+# dumb transports.
+#
+# To enable this hook, rename this file to "post-update".
+
+source $(pwd)/scripts/utils/logger.sh
+
+log_info "Running post-update hook..."
+
+# exec git update-server-info
