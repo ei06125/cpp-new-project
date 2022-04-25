@@ -1,6 +1,7 @@
 # Copyright (C) ei06125. All Rights Reserved.
 
 if(ENABLE_PERFORMANCE_TESTS)
+  find_package(benchmark CONFIG REQUIRED)
   add_executable(ProjectPerformanceTests)
   file(GLOB_RECURSE ProjectPerformanceTests_SOURCES "*.cpp")
   target_sources(
