@@ -7,8 +7,6 @@ on:
   pull_request:
     branches: [master]
 
-env:
-  VCPKG_CMAKE_SOURCE_DIR: "tools/vcpkg/scripts/buildsystems"
 jobs:
   Test:
     runs-on: ${{ matrix.os }}
@@ -86,7 +84,7 @@ jobs:
         with:
           path: |
             ~/.cache/cpp-build
-            ~/tools/vcpkg
+            # ~/tools/vcpkg
             # ~/vcpkg
             # ./build/vcpkg_installed
             # ${{ env.HOME }}/.cache/vcpkg/archives
@@ -150,7 +148,7 @@ jobs:
 
       - name: Configure CMake
         run: |
-          cmake -S . -B ./build -G "${{matrix.generator}}" -DCMAKE_BUILD_TYPE:STRING=${{matrix.build_type}} -DCMAKE_CROSSCOMPILING=1 -DCMAKE_TOOLCHAIN_FILE=${VCPKG_CMAKE_SOURCE_DIR}/vcpkg.cmake -DRUN_HAVE_STD_REGEX=0 -DRUN_HAVE_POSIX_REGEX=0 -DBENCHMARK_ENABLE_TESTING:BOOL=FALSE -DBENCHMARK_ENABLE_GTEST_TESTS:BOOL=FALSE -DOPT_ENABLE_COVERAGE:BOOL=${{ matrix.build_type == 'Debug' }} -DGIT_SHA:STRING=${{ github.sha }}
+          cmake -S . -B ./build -G "${{matrix.generator}}" -DCMAKE_BUILD_TYPE:STRING=${{matrix.build_type}} -DCMAKE_CROSSCOMPILING=1 -DCMAKE_TOOLCHAIN_FILE=$./tools/vcpkg/scripts/buildsystems/vcpkg.cmake -DRUN_HAVE_STD_REGEX=0 -DRUN_HAVE_POSIX_REGEX=0 -DBENCHMARK_ENABLE_TESTING:BOOL=FALSE -DBENCHMARK_ENABLE_GTEST_TESTS:BOOL=FALSE -DOPT_ENABLE_COVERAGE:BOOL=${{ matrix.build_type == 'Debug' }} -DGIT_SHA:STRING=${{ github.sha }}
 
       - name: Build
         run: |
