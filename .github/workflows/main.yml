@@ -87,15 +87,14 @@ jobs:
         with:
           path: |
             ~/.cache/cpp-build
-            # ~/tools/vcpkg
-            # ~/vcpkg
-            # ./build/vcpkg_installed
-            # ${{ env.HOME }}/.cache/vcpkg/archives
-            # ${{ env.XDG_CACHE_HOME }}/vcpkg/archives
-            # ${{ env.LOCALAPPDATA }}\vcpkg\archives
-            # ${{ env.APPDATA }}\vcpkg\archives
+            ~/tools/vcpkg
+            ~/vcpkg
+            ./build/vcpkg_installed
+            ${{ env.HOME }}/.cache/vcpkg/archives
+            ${{ env.XDG_CACHE_HOME }}/vcpkg/archives
+            ${{ env.LOCALAPPDATA }}\vcpkg\archives
+            ${{ env.APPDATA }}\vcpkg\archives
           key: ${{ runner.os }}-${{ matrix.compiler }}-${{ env.BUILD_TYPE }}-${{ hashFiles('**/CMakeLists.txt') }}-${{ hashFiles('./vcpkg.json')}}
-          # key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/cpp.sum') }}
           restore-keys: |
             ${{ runner.os }}-build-${{ env.cache-name }}-
             ${{ runner.os }}-build-
