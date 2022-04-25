@@ -1,0 +1,9 @@
+{
+  "name": "cpp-new-project",
+  "version-string": "0.1.0",
+  "dependencies": [
+    "gtest",
+    "benchmark",
+    "doctest"
+  ]
+}

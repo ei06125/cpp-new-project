@@ -45,11 +45,12 @@ log_trace "Applying clang-format - DONE"
 # Generate, Build and Test with cmake
 # =============================================================================
 
-CMAKE_BINARY_DIR=build/CI
+CMAKE_TOOLCHAIN_FILE_DIR=$(pwd)/tools/vcpkg/scripts/buildsystems
+CMAKE_BINARY_DIR=build/CI/pre-commit
 CMAKE_BUILD_TYPE=Release
 
 log_trace "Building and Testing..."
-log_info "Generating build system..." && cmake -S . -B $CMAKE_BINARY_DIR -DCMAKE_BUILD_TYPE=$CMAKE_BUILD_TYPE -DENABLE_PERFORMANCE_TESTS=FALSE -DBENCHMARK_ENABLE_GTEST_TESTS=FALSE -DBENCHMARK_ENABLE_TESTING=FALSE -DCMAKE_CROSSCOMPILING=1 -DRUN_HAVE_STD_REGEX=0 -DRUN_HAVE_POSIX_REGEX=0 && log_info "Building..." && cmake --build $CMAKE_BINARY_DIR --config $CMAKE_BUILD_TYPE --parallel 6 && log_info "Testing..." &&
+log_info "Generating build system..." && cmake -S . -B $CMAKE_BINARY_DIR -DCMAKE_BUILD_TYPE=$CMAKE_BUILD_TYPE -DCMAKE_TOOLCHAIN_FILE=$CMAKE_TOOLCHAIN_FILE_DIR/vcpkg.cmake -DENABLE_PERFORMANCE_TESTS=FALSE -DBENCHMARK_ENABLE_GTEST_TESTS=FALSE -DBENCHMARK_ENABLE_TESTING=FALSE -DCMAKE_CROSSCOMPILING=1 -DRUN_HAVE_STD_REGEX=0 -DRUN_HAVE_POSIX_REGEX=0 && log_info "Building..." && cmake --build $CMAKE_BINARY_DIR --config $CMAKE_BUILD_TYPE --parallel 6 && log_info "Testing..." &&
     ctest --test-dir $CMAKE_BINARY_DIR -C $CMAKE_BUILD_TYPE || log_error "Building or Testing - FAILED"
 
 echo ""
