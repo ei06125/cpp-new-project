@@ -17,3 +17,12 @@ First, click the green `Use this template` button near the top of this page. Fil
 
 More Details
 * [Building](BUILDING.md)
+
+
+## How's To
+
+### Build Documentation
+
+```bash
+doxygen dconfig
+```

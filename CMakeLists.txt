@@ -4,6 +4,7 @@ cmake_minimum_required(VERSION 3.21)
 project(
   CppTemplateProject
   VERSION 1.0.0
+  DESCRIPTION "This is a GitHub template that helps to bootstrap c++ projects."
   LANGUAGES CXX
 )
 
@@ -25,6 +26,8 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 log_info("Generating Global Settings INTERFACE target")
 add_library(GlobalSettings INTERFACE)
 set_project_warnings(GlobalSettings)
+
+enable_doxygen()
 
 # add_subdirectory(external)
 add_subdirectory(include)
